@@ -40,6 +40,7 @@ public class DemoQAPractice {
         JavascriptExecutor js = (JavascriptExecutor)driver;
         js.executeScript("window.scrollBy(0,500)");
 
+        // button click
        List<WebElement> btnSubmit = driver.findElements(By.tagName("button"));
        btnSubmit.get(1).click();
 
